@@ -1,0 +1,12 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('RISERVATO ACME - Commessa ACM-2026-0417 - Cliente Aerodyne Srl'),'2;1');
+FILE_NAME('ACM-2026-0417_staffa_supporto.step','2026-09-23T10:00:00',('Ufficio Tecnico ACME'),('ACME Meccanica S.r.l.'),'SolidWorks 2025','SolidWorks 2025','');
+FILE_SCHEMA(('AUTOMOTIVE_DESIGN'));
+ENDSEC;
+DATA;
+#1=APPLICATION_CONTEXT('automotive_design');
+#2=PRODUCT('ACM-2026-0417-STF','Staffa supporto motore','RISERVATO ACME',(#3));
+#3=PRODUCT_CONTEXT('',#1,'mechanical');
+ENDSEC;
+END-ISO-10303-21;
